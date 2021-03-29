@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+.nav{
+    background-color:#543136;
+    color:#ffffff;
+    list-style: none;
+    text-align: center;
+    padding: 20px 0 20px 0;
+}
+
+.nav > li{
+    display: inherit-block;
+    padding: 0 25px 0 25px;
+}
+
+.nav > li{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.nav > li > a:hover {
+    color: #D8C6B8;
+}

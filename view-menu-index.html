@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pasta Amore Homepage</title>
+  </head>
+</html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #543136;
+}
+
+/* Style the header */
+header {
+  background-color: #7b573e;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Container for flexboxes */
+section {
+  display: -webkit-flex;
+  display: flex;
+}
+
+/* Style the navigation menu */
+nav {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background: #D8C6B8;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Style the content */
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color: #ffffff;
+  padding: 10px;
+}
+
+/* Style the footer */
+footer {
+  background-color: #7b573e;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
+</style>
+</head>
+<header>
+  <h2>Pasta Amore Menu</h2>
+</header>
+<section>
+  <nav>
+    <ul>
+      <li><a href="#">Antipasti</a></li>
+      <li><a href="#">Pizza</a></li>
+      <li><a href="#">Paste</a></li>
+      <li><a href="#">Secondi</a></li>
+      <li><a href="#">Dolci</a></li>
+      <li><a href="#">Cocktails & Drinks</a></li>
+    </ul>
+  </nav>
+  <article>
+    <h1>Antipasti</h1>
+    <p><b>Housemade Buttermilk Ricotta</b><br>
+    Aged Balsamic, Fennel Pollen, Herb Oil, Lava Salt, Grilled Bread</p>
+    <p><b>Herb-Caesar Salad</b><br>
+    Little Gem, Endive, Parmigiana Reggiano, Squid Ink Breadcrumbs, Lemon Zest</p>
+    <p><b>Lobster Crostino</b><br>
+    Squid Ink Aioli, Pickled Fresno Chili, Thai & Opal Basil, Citrus</p>
+    <p><b>Grilled Kohlrabi & Turnip</b><br>
+    Porcini Cultured Cream, Black Garlic, Meyer Lemon, Thai Basil</p>
+    <p><b>Roasted Marrow Bone</b><br>
+    Spinach Gnocchetti, Crispy Breadcrumbs, Aged Balsamic</p>
+    <p><b>Mussels</b><br>
+    Spicy 'Nduja, Scallions, Fennel Pollen, Grilled Bread</p>
+  </article>
+</section>
+<footer>
+  <p>Footer</p>
+</footer>
+</body>
+</html>
